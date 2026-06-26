@@ -1,0 +1,805 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE95F84A2FEDCBE100654E75 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE95F8212FEDCBE100654E75 /* Preview Assets.xcassets */; };
+		EE95F84B2FEDCBE100654E75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE95F8452FEDCBE100654E75 /* Assets.xcassets */; };
+		EE95F84C2FEDCBE100654E75 /* employees.json in Resources */ = {isa = PBXBuildFile; fileRef = EE95F8472FEDCBE100654E75 /* employees.json */; };
+		EE95F84D2FEDCBE100654E75 /* PeriodButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE95F8322FEDCBE100654E75 /* PeriodButton.swift */; };
+		EE95F84E2FEDCBE100654E75 /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE95F8282FEDCBE100654E75 /* AppTheme.swift */; };
+		EE95F84F2FEDCBE100654E75 /* TaskRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE95F8382FEDCBE100654E75 /* TaskRow.swift */; };
+		EE95F8502FEDCBE100654E75 /* ResourcesScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE95F83A2FEDCBE100654E75 /* ResourcesScreen.swift */; };
+		EE95F8512FEDCBE100654E75 /* AppMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE95F8262FEDCBE100654E75 /* AppMode.swift */; };
+		EE95F8522FEDCBE100654E75 /* EmployeesScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE95F83F2FEDCBE100654E75 /* EmployeesScreen.swift */; };
+		EE95F8532FEDCBE100654E75 /* ScreenTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE95F8372FEDCBE100654E75 /* ScreenTitle.swift */; };
+		EE95F8542FEDCBE100654E75 /* KPIScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE95F8402FEDCBE100654E75 /* KPIScreen.swift */; };
+		EE95F8552FEDCBE100654E75 /* WebPageScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE95F83B2FEDCBE100654E75 /* WebPageScreen.swift */; };
+		EE95F8562FEDCBE100654E75 /* AppTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE95F8272FEDCBE100654E75 /* AppTab.swift */; };
+		EE95F8572FEDCBE100654E75 /* TasksScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE95F8422FEDCBE100654E75 /* TasksScreen.swift */; };
+		EE95F8582FEDCBE100654E75 /* WebResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE95F81F2FEDCBE100654E75 /* WebResource.swift */; };
+		EE95F8592FEDCBE100654E75 /* EmployeeLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE95F8242FEDCBE100654E75 /* EmployeeLoader.swift */; };
+		EE95F85A2FEDCBE100654E75 /* FilterChip.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE95F82D2FEDCBE100654E75 /* FilterChip.swift */; };
+		EE95F85B2FEDCBE100654E75 /* LegendItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE95F8302FEDCBE100654E75 /* LegendItem.swift */; };
+		EE95F85C2FEDCBE100654E75 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE95F82E2FEDCBE100654E75 /* HeaderView.swift */; };
+		EE95F85D2FEDCBE100654E75 /* ProfileRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE95F8342FEDCBE100654E75 /* ProfileRow.swift */; };
+		EE95F85E2FEDCBE100654E75 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE95F8462FEDCBE100654E75 /* ContentView.swift */; };
+		EE95F85F2FEDCBE100654E75 /* ProfileScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE95F8412FEDCBE100654E75 /* ProfileScreen.swift */; };
+		EE95F8602FEDCBE100654E75 /* QuickButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE95F8362FEDCBE100654E75 /* QuickButton.swift */; };
+		EE95F8612FEDCBE100654E75 /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE95F81C2FEDCBE100654E75 /* Employee.swift */; };
+		EE95F8622FEDCBE100654E75 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE95F82B2FEDCBE100654E75 /* CustomTabBar.swift */; };
+		EE95F8632FEDCBE100654E75 /* PremiumCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE95F8332FEDCBE100654E75 /* PremiumCard.swift */; };
+		EE95F8642FEDCBE100654E75 /* EmployeesAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE95F8232FEDCBE100654E75 /* EmployeesAPIService.swift */; };
+		EE95F8652FEDCBE100654E75 /* AIScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE95F83E2FEDCBE100654E75 /* AIScreen.swift */; };
+		EE95F8662FEDCBE100654E75 /* ERPTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE95F81D2FEDCBE100654E75 /* ERPTask.swift */; };
+		EE95F8672FEDCBE100654E75 /* EmployeeRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE95F82C2FEDCBE100654E75 /* EmployeeRow.swift */; };
+		EE95F8682FEDCBE100654E75 /* ProgressCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE95F8352FEDCBE100654E75 /* ProgressCard.swift */; };
+		EE95F8692FEDCBE100654E75 /* ERP_AI_AssistantApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE95F8482FEDCBE100654E75 /* ERP_AI_AssistantApp.swift */; };
+		EE95F86A2FEDCBE100654E75 /* KPICard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE95F82F2FEDCBE100654E75 /* KPICard.swift */; };
+		EE95F86B2FEDCBE100654E75 /* ChatMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE95F81B2FEDCBE100654E75 /* ChatMessage.swift */; };
+		EE95F86C2FEDCBE100654E75 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE95F83C2FEDCBE100654E75 /* WebView.swift */; };
+		EE95F86D2FEDCBE100654E75 /* ModeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE95F8312FEDCBE100654E75 /* ModeButton.swift */; };
+		EE95F86E2FEDCBE100654E75 /* TaskItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE95F81E2FEDCBE100654E75 /* TaskItem.swift */; };
+		EE95F8712FEDCBF900654E75 /* Date+Format.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE95F8702FEDCBF700654E75 /* Date+Format.swift */; };
+		EE95F8732FEDD06000654E75 /* EmployeesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE95F8722FEDD05F00654E75 /* EmployeesViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE05C88C2FC48BF100A0A255 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE05C8732FC48BEE00A0A255 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE05C87A2FC48BEE00A0A255;
+			remoteInfo = "ERP AI Assistant";
+		};
+		EE05C8962FC48BF100A0A255 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE05C8732FC48BEE00A0A255 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE05C87A2FC48BEE00A0A255;
+			remoteInfo = "ERP AI Assistant";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE05C87B2FC48BEE00A0A255 /* ERP AI Assistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ERP AI Assistant.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE05C88B2FC48BF100A0A255 /* ERP AI AssistantTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ERP AI AssistantTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE05C8952FC48BF100A0A255 /* ERP AI AssistantUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ERP AI AssistantUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE95F81B2FEDCBE100654E75 /* ChatMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessage.swift; sourceTree = "<group>"; };
+		EE95F81C2FEDCBE100654E75 /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
+		EE95F81D2FEDCBE100654E75 /* ERPTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ERPTask.swift; sourceTree = "<group>"; };
+		EE95F81E2FEDCBE100654E75 /* TaskItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskItem.swift; sourceTree = "<group>"; };
+		EE95F81F2FEDCBE100654E75 /* WebResource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebResource.swift; sourceTree = "<group>"; };
+		EE95F8212FEDCBE100654E75 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EE95F8232FEDCBE100654E75 /* EmployeesAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeesAPIService.swift; sourceTree = "<group>"; };
+		EE95F8242FEDCBE100654E75 /* EmployeeLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeLoader.swift; sourceTree = "<group>"; };
+		EE95F8262FEDCBE100654E75 /* AppMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMode.swift; sourceTree = "<group>"; };
+		EE95F8272FEDCBE100654E75 /* AppTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTab.swift; sourceTree = "<group>"; };
+		EE95F8282FEDCBE100654E75 /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
+		EE95F82B2FEDCBE100654E75 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		EE95F82C2FEDCBE100654E75 /* EmployeeRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeRow.swift; sourceTree = "<group>"; };
+		EE95F82D2FEDCBE100654E75 /* FilterChip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterChip.swift; sourceTree = "<group>"; };
+		EE95F82E2FEDCBE100654E75 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		EE95F82F2FEDCBE100654E75 /* KPICard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPICard.swift; sourceTree = "<group>"; };
+		EE95F8302FEDCBE100654E75 /* LegendItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegendItem.swift; sourceTree = "<group>"; };
+		EE95F8312FEDCBE100654E75 /* ModeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeButton.swift; sourceTree = "<group>"; };
+		EE95F8322FEDCBE100654E75 /* PeriodButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriodButton.swift; sourceTree = "<group>"; };
+		EE95F8332FEDCBE100654E75 /* PremiumCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PremiumCard.swift; sourceTree = "<group>"; };
+		EE95F8342FEDCBE100654E75 /* ProfileRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileRow.swift; sourceTree = "<group>"; };
+		EE95F8352FEDCBE100654E75 /* ProgressCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressCard.swift; sourceTree = "<group>"; };
+		EE95F8362FEDCBE100654E75 /* QuickButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickButton.swift; sourceTree = "<group>"; };
+		EE95F8372FEDCBE100654E75 /* ScreenTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenTitle.swift; sourceTree = "<group>"; };
+		EE95F8382FEDCBE100654E75 /* TaskRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRow.swift; sourceTree = "<group>"; };
+		EE95F83A2FEDCBE100654E75 /* ResourcesScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesScreen.swift; sourceTree = "<group>"; };
+		EE95F83B2FEDCBE100654E75 /* WebPageScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebPageScreen.swift; sourceTree = "<group>"; };
+		EE95F83C2FEDCBE100654E75 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		EE95F83E2FEDCBE100654E75 /* AIScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIScreen.swift; sourceTree = "<group>"; };
+		EE95F83F2FEDCBE100654E75 /* EmployeesScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeesScreen.swift; sourceTree = "<group>"; };
+		EE95F8402FEDCBE100654E75 /* KPIScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPIScreen.swift; sourceTree = "<group>"; };
+		EE95F8412FEDCBE100654E75 /* ProfileScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileScreen.swift; sourceTree = "<group>"; };
+		EE95F8422FEDCBE100654E75 /* TasksScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksScreen.swift; sourceTree = "<group>"; };
+		EE95F8452FEDCBE100654E75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE95F8462FEDCBE100654E75 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EE95F8472FEDCBE100654E75 /* employees.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = employees.json; sourceTree = "<group>"; };
+		EE95F8482FEDCBE100654E75 /* ERP_AI_AssistantApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ERP_AI_AssistantApp.swift; sourceTree = "<group>"; };
+		EE95F8702FEDCBF700654E75 /* Date+Format.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Format.swift"; sourceTree = "<group>"; };
+		EE95F8722FEDD05F00654E75 /* EmployeesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeesViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		EE05C88E2FC48BF100A0A255 /* ERP AI AssistantTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "ERP AI AssistantTests";
+			sourceTree = "<group>";
+		};
+		EE05C8982FC48BF100A0A255 /* ERP AI AssistantUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "ERP AI AssistantUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE05C8782FC48BEE00A0A255 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE05C8882FC48BF100A0A255 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE05C8922FC48BF100A0A255 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE05C8722FC48BEE00A0A255 = {
+			isa = PBXGroup;
+			children = (
+				EE95F8492FEDCBE100654E75 /* ERP AI Assistant */,
+				EE05C88E2FC48BF100A0A255 /* ERP AI AssistantTests */,
+				EE05C8982FC48BF100A0A255 /* ERP AI AssistantUITests */,
+				EE05C87C2FC48BEE00A0A255 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE05C87C2FC48BEE00A0A255 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE05C87B2FC48BEE00A0A255 /* ERP AI Assistant.app */,
+				EE05C88B2FC48BF100A0A255 /* ERP AI AssistantTests.xctest */,
+				EE05C8952FC48BF100A0A255 /* ERP AI AssistantUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE95F8202FEDCBE100654E75 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EE95F81B2FEDCBE100654E75 /* ChatMessage.swift */,
+				EE95F81C2FEDCBE100654E75 /* Employee.swift */,
+				EE95F81D2FEDCBE100654E75 /* ERPTask.swift */,
+				EE95F81E2FEDCBE100654E75 /* TaskItem.swift */,
+				EE95F81F2FEDCBE100654E75 /* WebResource.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EE95F8222FEDCBE100654E75 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EE95F8212FEDCBE100654E75 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EE95F8252FEDCBE100654E75 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				EE95F8232FEDCBE100654E75 /* EmployeesAPIService.swift */,
+				EE95F8242FEDCBE100654E75 /* EmployeeLoader.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		EE95F8292FEDCBE100654E75 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				EE95F8262FEDCBE100654E75 /* AppMode.swift */,
+				EE95F8272FEDCBE100654E75 /* AppTab.swift */,
+				EE95F8282FEDCBE100654E75 /* AppTheme.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		EE95F82A2FEDCBE100654E75 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				EE95F8722FEDD05F00654E75 /* EmployeesViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		EE95F8392FEDCBE100654E75 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				EE95F82B2FEDCBE100654E75 /* CustomTabBar.swift */,
+				EE95F82C2FEDCBE100654E75 /* EmployeeRow.swift */,
+				EE95F82D2FEDCBE100654E75 /* FilterChip.swift */,
+				EE95F82E2FEDCBE100654E75 /* HeaderView.swift */,
+				EE95F82F2FEDCBE100654E75 /* KPICard.swift */,
+				EE95F8302FEDCBE100654E75 /* LegendItem.swift */,
+				EE95F8312FEDCBE100654E75 /* ModeButton.swift */,
+				EE95F8322FEDCBE100654E75 /* PeriodButton.swift */,
+				EE95F8332FEDCBE100654E75 /* PremiumCard.swift */,
+				EE95F8342FEDCBE100654E75 /* ProfileRow.swift */,
+				EE95F8352FEDCBE100654E75 /* ProgressCard.swift */,
+				EE95F8362FEDCBE100654E75 /* QuickButton.swift */,
+				EE95F8372FEDCBE100654E75 /* ScreenTitle.swift */,
+				EE95F8382FEDCBE100654E75 /* TaskRow.swift */,
+				EE95F83C2FEDCBE100654E75 /* WebView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		EE95F8432FEDCBE100654E75 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				EE95F83E2FEDCBE100654E75 /* AIScreen.swift */,
+				EE95F83F2FEDCBE100654E75 /* EmployeesScreen.swift */,
+				EE95F8402FEDCBE100654E75 /* KPIScreen.swift */,
+				EE95F8412FEDCBE100654E75 /* ProfileScreen.swift */,
+				EE95F8422FEDCBE100654E75 /* TasksScreen.swift */,
+				EE95F83A2FEDCBE100654E75 /* ResourcesScreen.swift */,
+				EE95F83B2FEDCBE100654E75 /* WebPageScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		EE95F8442FEDCBE100654E75 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EE95F8392FEDCBE100654E75 /* Components */,
+				EE95F8432FEDCBE100654E75 /* Screens */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EE95F8492FEDCBE100654E75 /* ERP AI Assistant */ = {
+			isa = PBXGroup;
+			children = (
+				EE95F8202FEDCBE100654E75 /* Models */,
+				EE95F82A2FEDCBE100654E75 /* ViewModels */,
+				EE95F8442FEDCBE100654E75 /* Views */,
+				EE95F8252FEDCBE100654E75 /* Services */,
+				EE95F8292FEDCBE100654E75 /* Theme */,
+				EE95F8742FEE234D00654E75 /* Resources */,
+				EE95F86F2FEDCBE800654E75 /* Extensions */,
+				EE95F8222FEDCBE100654E75 /* Preview Content */,
+				EE95F8452FEDCBE100654E75 /* Assets.xcassets */,
+				EE95F8462FEDCBE100654E75 /* ContentView.swift */,
+				EE95F8482FEDCBE100654E75 /* ERP_AI_AssistantApp.swift */,
+			);
+			path = "ERP AI Assistant";
+			sourceTree = "<group>";
+		};
+		EE95F86F2FEDCBE800654E75 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EE95F8702FEDCBF700654E75 /* Date+Format.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		EE95F8742FEE234D00654E75 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EE95F8472FEDCBE100654E75 /* employees.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE05C87A2FC48BEE00A0A255 /* ERP AI Assistant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE05C89F2FC48BF100A0A255 /* Build configuration list for PBXNativeTarget "ERP AI Assistant" */;
+			buildPhases = (
+				EE05C8772FC48BEE00A0A255 /* Sources */,
+				EE05C8782FC48BEE00A0A255 /* Frameworks */,
+				EE05C8792FC48BEE00A0A255 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ERP AI Assistant";
+			packageProductDependencies = (
+			);
+			productName = "ERP AI Assistant";
+			productReference = EE05C87B2FC48BEE00A0A255 /* ERP AI Assistant.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE05C88A2FC48BF100A0A255 /* ERP AI AssistantTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE05C8A22FC48BF100A0A255 /* Build configuration list for PBXNativeTarget "ERP AI AssistantTests" */;
+			buildPhases = (
+				EE05C8872FC48BF100A0A255 /* Sources */,
+				EE05C8882FC48BF100A0A255 /* Frameworks */,
+				EE05C8892FC48BF100A0A255 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE05C88D2FC48BF100A0A255 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				EE05C88E2FC48BF100A0A255 /* ERP AI AssistantTests */,
+			);
+			name = "ERP AI AssistantTests";
+			packageProductDependencies = (
+			);
+			productName = "ERP AI AssistantTests";
+			productReference = EE05C88B2FC48BF100A0A255 /* ERP AI AssistantTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE05C8942FC48BF100A0A255 /* ERP AI AssistantUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE05C8A52FC48BF100A0A255 /* Build configuration list for PBXNativeTarget "ERP AI AssistantUITests" */;
+			buildPhases = (
+				EE05C8912FC48BF100A0A255 /* Sources */,
+				EE05C8922FC48BF100A0A255 /* Frameworks */,
+				EE05C8932FC48BF100A0A255 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE05C8972FC48BF100A0A255 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				EE05C8982FC48BF100A0A255 /* ERP AI AssistantUITests */,
+			);
+			name = "ERP AI AssistantUITests";
+			packageProductDependencies = (
+			);
+			productName = "ERP AI AssistantUITests";
+			productReference = EE05C8952FC48BF100A0A255 /* ERP AI AssistantUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE05C8732FC48BEE00A0A255 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					EE05C87A2FC48BEE00A0A255 = {
+						CreatedOnToolsVersion = 16.2;
+						LastSwiftMigration = 1620;
+					};
+					EE05C88A2FC48BF100A0A255 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = EE05C87A2FC48BEE00A0A255;
+					};
+					EE05C8942FC48BF100A0A255 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = EE05C87A2FC48BEE00A0A255;
+					};
+				};
+			};
+			buildConfigurationList = EE05C8762FC48BEE00A0A255 /* Build configuration list for PBXProject "ERP AI Assistant" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE05C8722FC48BEE00A0A255;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = EE05C87C2FC48BEE00A0A255 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE05C87A2FC48BEE00A0A255 /* ERP AI Assistant */,
+				EE05C88A2FC48BF100A0A255 /* ERP AI AssistantTests */,
+				EE05C8942FC48BF100A0A255 /* ERP AI AssistantUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE05C8792FC48BEE00A0A255 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE95F84A2FEDCBE100654E75 /* Preview Assets.xcassets in Resources */,
+				EE95F84B2FEDCBE100654E75 /* Assets.xcassets in Resources */,
+				EE95F84C2FEDCBE100654E75 /* employees.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE05C8892FC48BF100A0A255 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE05C8932FC48BF100A0A255 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE05C8772FC48BEE00A0A255 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE95F84D2FEDCBE100654E75 /* PeriodButton.swift in Sources */,
+				EE95F84E2FEDCBE100654E75 /* AppTheme.swift in Sources */,
+				EE95F84F2FEDCBE100654E75 /* TaskRow.swift in Sources */,
+				EE95F8502FEDCBE100654E75 /* ResourcesScreen.swift in Sources */,
+				EE95F8512FEDCBE100654E75 /* AppMode.swift in Sources */,
+				EE95F8522FEDCBE100654E75 /* EmployeesScreen.swift in Sources */,
+				EE95F8532FEDCBE100654E75 /* ScreenTitle.swift in Sources */,
+				EE95F8542FEDCBE100654E75 /* KPIScreen.swift in Sources */,
+				EE95F8552FEDCBE100654E75 /* WebPageScreen.swift in Sources */,
+				EE95F8562FEDCBE100654E75 /* AppTab.swift in Sources */,
+				EE95F8572FEDCBE100654E75 /* TasksScreen.swift in Sources */,
+				EE95F8582FEDCBE100654E75 /* WebResource.swift in Sources */,
+				EE95F8592FEDCBE100654E75 /* EmployeeLoader.swift in Sources */,
+				EE95F85A2FEDCBE100654E75 /* FilterChip.swift in Sources */,
+				EE95F8732FEDD06000654E75 /* EmployeesViewModel.swift in Sources */,
+				EE95F85B2FEDCBE100654E75 /* LegendItem.swift in Sources */,
+				EE95F85C2FEDCBE100654E75 /* HeaderView.swift in Sources */,
+				EE95F8712FEDCBF900654E75 /* Date+Format.swift in Sources */,
+				EE95F85D2FEDCBE100654E75 /* ProfileRow.swift in Sources */,
+				EE95F85E2FEDCBE100654E75 /* ContentView.swift in Sources */,
+				EE95F85F2FEDCBE100654E75 /* ProfileScreen.swift in Sources */,
+				EE95F8602FEDCBE100654E75 /* QuickButton.swift in Sources */,
+				EE95F8612FEDCBE100654E75 /* Employee.swift in Sources */,
+				EE95F8622FEDCBE100654E75 /* CustomTabBar.swift in Sources */,
+				EE95F8632FEDCBE100654E75 /* PremiumCard.swift in Sources */,
+				EE95F8642FEDCBE100654E75 /* EmployeesAPIService.swift in Sources */,
+				EE95F8652FEDCBE100654E75 /* AIScreen.swift in Sources */,
+				EE95F8662FEDCBE100654E75 /* ERPTask.swift in Sources */,
+				EE95F8672FEDCBE100654E75 /* EmployeeRow.swift in Sources */,
+				EE95F8682FEDCBE100654E75 /* ProgressCard.swift in Sources */,
+				EE95F8692FEDCBE100654E75 /* ERP_AI_AssistantApp.swift in Sources */,
+				EE95F86A2FEDCBE100654E75 /* KPICard.swift in Sources */,
+				EE95F86B2FEDCBE100654E75 /* ChatMessage.swift in Sources */,
+				EE95F86C2FEDCBE100654E75 /* WebView.swift in Sources */,
+				EE95F86D2FEDCBE100654E75 /* ModeButton.swift in Sources */,
+				EE95F86E2FEDCBE100654E75 /* TaskItem.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE05C8872FC48BF100A0A255 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE05C8912FC48BF100A0A255 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE05C88D2FC48BF100A0A255 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE05C87A2FC48BEE00A0A255 /* ERP AI Assistant */;
+			targetProxy = EE05C88C2FC48BF100A0A255 /* PBXContainerItemProxy */;
+		};
+		EE05C8972FC48BF100A0A255 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE05C87A2FC48BEE00A0A255 /* ERP AI Assistant */;
+			targetProxy = EE05C8962FC48BF100A0A255 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EE05C89D2FC48BF100A0A255 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE05C89E2FC48BF100A0A255 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE05C8A02FC48BF100A0A255 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ERP AI Assistant/Preview Content\"";
+				DEVELOPMENT_TEAM = NTRL98GQUK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stepanov.ERP-AI-Assistant";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE05C8A12FC48BF100A0A255 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ERP AI Assistant/Preview Content\"";
+				DEVELOPMENT_TEAM = NTRL98GQUK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stepanov.ERP-AI-Assistant";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EE05C8A32FC48BF100A0A255 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NTRL98GQUK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stepanov.ERP-AI-AssistantTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ERP AI Assistant.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ERP AI Assistant";
+			};
+			name = Debug;
+		};
+		EE05C8A42FC48BF100A0A255 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NTRL98GQUK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stepanov.ERP-AI-AssistantTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ERP AI Assistant.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ERP AI Assistant";
+			};
+			name = Release;
+		};
+		EE05C8A62FC48BF100A0A255 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NTRL98GQUK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stepanov.ERP-AI-AssistantUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ERP AI Assistant";
+			};
+			name = Debug;
+		};
+		EE05C8A72FC48BF100A0A255 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NTRL98GQUK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stepanov.ERP-AI-AssistantUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ERP AI Assistant";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE05C8762FC48BEE00A0A255 /* Build configuration list for PBXProject "ERP AI Assistant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE05C89D2FC48BF100A0A255 /* Debug */,
+				EE05C89E2FC48BF100A0A255 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE05C89F2FC48BF100A0A255 /* Build configuration list for PBXNativeTarget "ERP AI Assistant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE05C8A02FC48BF100A0A255 /* Debug */,
+				EE05C8A12FC48BF100A0A255 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE05C8A22FC48BF100A0A255 /* Build configuration list for PBXNativeTarget "ERP AI AssistantTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE05C8A32FC48BF100A0A255 /* Debug */,
+				EE05C8A42FC48BF100A0A255 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE05C8A52FC48BF100A0A255 /* Build configuration list for PBXNativeTarget "ERP AI AssistantUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE05C8A62FC48BF100A0A255 /* Debug */,
+				EE05C8A72FC48BF100A0A255 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE05C8732FC48BEE00A0A255 /* Project object */;
+}
